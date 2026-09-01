@@ -1,4 +1,4 @@
-sexo=input("[H]: Hombre / [M]: Mujer")
+sexo=input("[H]: Hombre / [M]: Mujer").upper()
 edad=int(input("dame tu edad: "))
 
 if sexo=="H" and edad>65:
